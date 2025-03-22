@@ -5,7 +5,7 @@ import { GUI } from 'https://cdn.jsdelivr.net/npm/lil-gui@0.19.0/dist/lil-gui.es
 
 // Création de la scène
 const scene = new THREE.Scene();
-scene.background = new THREE.Color('#FFFFFF'); // Noir
+scene.background = new THREE.Color('#f2f3f5'); // Noir
 const light = new THREE.SpotLight(0xffffff, 1);
 light.position.set(-43, 12.3, 20);
 scene.add(light);
